@@ -1,5 +1,5 @@
 {
-	"name": "emp_copy",
+	"name": "DelimitedText3",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "emp_copy1",
+				"fileName": "address_vopy",
 				"folderPath": "output",
 				"container": "adf"
 			},
@@ -19,23 +19,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "id",
-				"type": "String"
-			},
-			{
-				"name": " name",
-				"type": "String"
-			},
-			{
-				"name": " dept",
-				"type": "String"
-			},
-			{
-				"name": " salary",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
